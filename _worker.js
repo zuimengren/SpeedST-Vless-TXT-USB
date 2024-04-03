@@ -17,6 +17,7 @@ let addresses = [
 	'443.xiangmq1969.xyz#官方优选域名',
 	'hk.100366.xyz#官方优选域名',
 	'sp.rweek.top#官方优选域名',
+	'cip.951535.xyz#官方优选域名',
 ];
 
 // 设置优选地址api接口
