@@ -14,13 +14,13 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt',
+	'https://raw.githubusercontent.com/zuimengren/SpeedST-Vless-TXT-USB/mian/addressesapi.txt',
 	'',//可参考内容格式 自行搭建。
 ];
 
 let DLS = 4;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv' //iptest测速结果文件。
+	//'https://raw.githubusercontent.com/zuimengren/SpeedST-Vless-TXT-USB/main/addressescsv.csv' //iptest测速结果文件。
 ];
 
 let subconverter = "api.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
@@ -421,7 +421,7 @@ export default {
 				if(proxyhosts && (host.includes('workers.dev') || host.includes('pages.dev'))) {
 					最终路径 = `/${host}${path}`;
 					伪装域名 = proxyhosts[Math.floor(Math.random() * proxyhosts.length)];
-					节点备注 = `${EndPS} 已启用临时域名中转服务，请尽快绑定自定义域！`;
+					节点备注 = `${EndPS} `;
 				}
 				const vlessLink = `vless://${uuid}@${address}:${port}?encryption=none&security=tls&sni=${伪装域名}&fp=random&type=ws&host=${伪装域名}&path=${encodeURIComponent(最终路径)}#${encodeURIComponent(addressid + 节点备注)}`;
 			
