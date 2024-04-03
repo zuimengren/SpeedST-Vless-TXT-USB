@@ -10,6 +10,13 @@ let addresses = [
 	'www.visa.com.sg#官方优选域名',
 	'www.wto.org:8080#官方优选域名',
 	'www.who.int:8880#官方优选域名',
+	'cdnhk.huabuxiang.vip#官方优选域名',
+	'ali.055500.xyz#官方优选域名',
+	'yx.kkkong.pp.ua#官方优选域名',
+	'cdn.shanggan.pp.ua#官方优选域名',
+	'443.xiangmq1969.xyz#官方优选域名',
+	'hk.100366.xyz#官方优选域名',
+	'sp.rweek.top#官方优选域名',
 ];
 
 // 设置优选地址api接口
